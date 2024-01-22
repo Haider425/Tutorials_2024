@@ -1,6 +1,6 @@
 import numpy as np
 
 def F(x,a):
-    val =
+    val =  x**2 - 2 - a
     return val
 
