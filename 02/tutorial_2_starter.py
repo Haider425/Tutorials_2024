@@ -25,16 +25,16 @@ plt.plot(xs,ys)
 plt.show()
 
 # Initial left and right boundary:
-a = 
-b = 
+a = 1.0
+b = 1.5
 print('Setting a=%f and b=%f to start bisection...' % (a,b))
 # max nr. of iterations and target error and residual:
-kMax = 
-tolX = 
-tolF = 
+kMax = 100
+tolX = 1e-6
+tolF = 1e-6
 x,recordB = bisect( ... )
 print('Setting x0=%f and x1=%f to seed secant iteration...' % (a,b))
-kMax = 
+kMax = 100
 # Make sure your secant function returns the errors and residuals in the same format as the bisection function!
 x,recordS = secant()
 
